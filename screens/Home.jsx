@@ -18,7 +18,7 @@ export const HomeScreen = ({ navigation }) => {
   const fetchPosts = () => {
     setIsLoading(true);
     axios
-      .get('https://5c3755177820ff0014d92711.mockapi.io/articles')
+      .get('https://63e1401565b57fe606554d55.mockapi.io/news/posts')
       .then(({ data }) => {
         setItems(data);
       })
